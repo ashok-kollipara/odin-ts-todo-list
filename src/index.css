@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 5vh 15vw;
+    max-height: 75vh;
+    background-color: #232136;
+    color: #3e8fb0;
+    border-style: solid;
+    border-color: #ea9a97;
+    border-width: 2px;
+}
+
+ul.project-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+div.side-navigation {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ea9a97;
+    padding: 1vh;
+}
+
+div.display-content {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ea9a97;
+    padding: 1vh;
+    flex-grow: 1;
+}
+
+div.project-header {
+    display: flex;
+    justify-content: space-between;
+}
